@@ -10,8 +10,9 @@ input:active {
     box-shadow: none !important;
 }
 input
-{   margin-left:28% !important ;
-    width:50% !important;
+{   margin-left:34% !important ;
+    width:40% !important;
+    height:40% !important;
     border-radius: 30px !important;
     border-width: 1px !important;
     border-color: black;
@@ -19,8 +20,8 @@ input
 }
 .fa-search
 { 
-    margin-left: 28% !important;
-    padding:0.8%;
+    margin-left: 34% !important;
+    padding:0.6%;
     color: rgb(59, 58, 58) !important;
     position:absolute;
 }
