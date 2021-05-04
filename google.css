@@ -31,6 +31,13 @@ input
     color: blue!important;
     position:absolute;
 }
-
-
+.buttons
+{   
+    margin-left:40% !important;
+    margin-top:3% !important;
+}
+.text
+{   margin-left:35% !important;
+    margin-top:5% !important;
+}
 
