@@ -1,0 +1,36 @@
+.heading
+{   margin-left:40%;
+     margin-top:15%;
+     margin-bottom:3%;
+    color:blue;
+}
+input:focus,
+input:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+input
+{   margin-left:28% !important ;
+    width:50% !important;
+    border-radius: 30px !important;
+    border-width: 1px !important;
+    border-color: black;
+    text-align: center !important;
+}
+.fa-search
+{ 
+    margin-left: 28% !important;
+    padding:0.8%;
+    color: rgb(59, 58, 58) !important;
+    position:absolute;
+}
+.fa-microphone
+{   
+    margin-left:-20px;
+    margin-top:7px;
+    color: blue!important;
+    position:absolute;
+}
+
+
+
