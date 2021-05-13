@@ -25,7 +25,7 @@ function filldata()
 {
    let code =``
    data=JSON.parse(localStorage["items"]);
-   console.log(data);
+//    console.log(data);
    for(let i=0;i<data.length;i++)
    {
        code+=`
@@ -49,7 +49,6 @@ function filldata()
 filldata();
 function toggle(id)
 {
-    //console.log(id,data);
     for(var i=0;i<data.length;i++)
    {
     if(data[i].id==id)
@@ -57,7 +56,7 @@ function toggle(id)
         break;
     }
    }
-   console.log(data,id);
+//    console.log(data,id);
    if(data[id].iscompleted)
    $("#v"+id).html(`<del>${data[i].item}</del>`)
    else
@@ -65,7 +64,7 @@ function toggle(id)
    localStorage.setItem("items",JSON.stringify(data));
 }
 function del(id) {
-    console.log(id);
+    // console.log(id);
     data=JSON.parse(localStorage["items"]);
     data.splice(id,1)
     localStorage.setItem("items",JSON.stringify(data));
@@ -74,7 +73,7 @@ function del(id) {
 function filter()
 {
  checkdata=data.filter((e=>e.iscompleted==true))
- console.log(checkdata)
+//  console.log(checkdata)
  let code =``
  for(let i=0;i<checkdata.length;i++)
    {
