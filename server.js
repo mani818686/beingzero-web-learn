@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const db=require('./backend/db/dbconnect');
+app.use(require('cors')())
+require("dotenv").config();
 //const apiroutes=require("./apiroutes");
 const userLib=require('./backend/lib/user');
 app.use(express.json());
